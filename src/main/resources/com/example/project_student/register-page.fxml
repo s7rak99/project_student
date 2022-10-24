@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.example.project_student.Controller"
+          vgap="5" hgap="5">
+
+    <Label text="First Name" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <TextField fx:id="fName" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <Label text="Last Name" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+    <TextField fx:id="lName" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    <Label text="Email" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+    <TextField fx:id="email" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+    <Label text="Password" GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+    <PasswordField fx:id="passwordField" GridPane.columnIndex="0" GridPane.rowIndex="7"/>
+    <Label text="Phone Number" GridPane.columnIndex="0" GridPane.rowIndex="8"/>
+    <TextField fx:id="phone" GridPane.columnIndex="0" GridPane.rowIndex="9" />
+    <Label text="Specialize" GridPane.columnIndex="0" GridPane.rowIndex="10"/>
+    <TextField fx:id="specialize" GridPane.columnIndex="0" GridPane.rowIndex="11"/>
+    <Button fx:id="register" text="REGISTER" GridPane.columnIndex="0" GridPane.rowIndex="12" onAction="#addStudent"/>
+</GridPane>
